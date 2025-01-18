@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 988ea52972a0ede4d8aae152743c7be5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - chessboard: {fileID: 166942, guid: 31270e9f38d5e7a448ae050b9633fce3, type: 3}
+  - borderMaterial: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
