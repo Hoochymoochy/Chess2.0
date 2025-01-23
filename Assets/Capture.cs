@@ -12,7 +12,6 @@ public class Capture : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        
         checkTag = other.tag;
         if(tag != checkTag)
         {
