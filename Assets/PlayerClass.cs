@@ -10,6 +10,7 @@ public class PlayerClass
     public int Score {  get; set; }
     public bool IsPlaying { get; set; } = false;
     private bool _timerStarted = false;
+    public bool IsPaused { get; set; } = true;
     private Stopwatch _stopwatch;
     private string time;
 
@@ -18,9 +19,6 @@ public class PlayerClass
         Name = name;
         _stopwatch = new Stopwatch();
     }
-
-
-
 
     public string TimeElapsed()
     {

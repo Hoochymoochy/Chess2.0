@@ -6,11 +6,12 @@ public class GameUI : MonoBehaviour
 {
 
     public TMP_Text timer;
+    public TMP_Text txtCurrentPlayerName;
 
     public PlayerClass player1;
     public PlayerClass player2;
     public PlayerClass currentPlayer;
-    private bool timerPressed = false;
+    //private bool timerPressed = false;
 
     public void ToMenuBtn()
     {
@@ -22,15 +23,30 @@ public class GameUI : MonoBehaviour
     /// </summary>
     public void TimerButton()
     {
-        if (timerPressed == false)
+
+
+        if (currentPlayer.IsPaused == true)
         {
-            // Start timer / maybe also switches players?
-            // Set timerPressed = true
+
+            // Start timer
+            currentPlayer.TimerStart();
+            currentPlayer.IsPlaying = true;
+            currentPlayer.IsPaused = false;
+
+            // Set isPaused = false
+            txtCurrentPlayerName.text = currentPlayer.Name;
         } 
         else
         {
+            currentPlayer.TimerPause();
             // stop timer
-            // Set timerPressed = false
+            currentPlayer.IsPlaying = false;
+            // Set isPaused = true
+            currentPlayer.IsPaused = true;
+            // Change current player.
+            if (currentPlayer == player1) { currentPlayer = player2; }
+            else { currentPlayer = player1; }
+
         }
     }
 
@@ -44,14 +60,13 @@ public class GameUI : MonoBehaviour
 
         currentPlayer = player1;
 
-
     }
 
     // Update is called once per frame
     void Update()
     {
         //string updatedTimer = currentPlayer.TimeElapsed.ToString("hh\\:mm\\:ss");
-        if (currentPlayer.IsPlaying == true)
+        if (currentPlayer.IsPaused == false)
         {
             timer.text = currentPlayer.TimeElapsed();
             
