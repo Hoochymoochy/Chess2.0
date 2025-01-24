@@ -7,3 +7,5 @@ Library/Bee/tundra.digestcache
 Library/Bee/TundraBuildState.state
 Library/Bee/TundraBuildState.state.map
 Library/expandedItems
+Temp/
+Library/
