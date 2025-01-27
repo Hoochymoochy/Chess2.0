@@ -20,6 +20,10 @@ public class PlayerClass
         _stopwatch = new Stopwatch();
     }
 
+    /// <summary>
+    /// Returns the elapsed time.
+    /// </summary>
+    /// <returns></returns>
     public string TimeElapsed()
     {
         
@@ -28,12 +32,18 @@ public class PlayerClass
         return updatedTime;
     }
 
+    /// <summary>
+    /// Resumes timer. Starts timer if it has not been started yet.
+    /// </summary>
     public void TimerStart()
     {
         if (_timerStarted == false) _timerStarted = true;
         _stopwatch.Start();
     }
 
+    /// <summary>
+    /// Pauses timer.
+    /// </summary>
     public void TimerPause()
     {
         _stopwatch.Stop();

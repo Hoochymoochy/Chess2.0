@@ -24,7 +24,7 @@ public class GameUI : MonoBehaviour
     public void TimerButton()
     {
 
-
+        // Changes players and pauses or unpauses their respective timers.
         if (currentPlayer.IsPaused == true)
         {
 
@@ -54,7 +54,7 @@ public class GameUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        // subject to change. Code for testing purposes.
         player1 = new PlayerClass(PlayerNames.player1Name, true);
         player2 = new PlayerClass(PlayerNames.player2Name, false);
 
