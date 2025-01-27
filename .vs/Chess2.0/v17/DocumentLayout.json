@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\chess\\Chess2.0\\",
+  "WorkspaceRootPath": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\chess\\Chess2.0\\assets\\playernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\assets\\chesspiecebounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|solutionrelative:assets\\chesspiecebounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|solutionrelative:assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\assets\\playernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|solutionrelative:assets\\playernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|c:\\year 3\\winter quarter\\principles of software engineering\\chess\\chess2.0\\assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|solutionrelative:assets\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|c:\\year 3\\winter quarter\\principles of software engineering\\other\\chess2.0\\assets\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|solutionrelative:assets\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\assets\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DC934A-348F-DD8E-B2AF-1ED1958155E8}|Assembly-CSharp.csproj|solutionrelative:assets\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,10 +35,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ChessPieceBounds.cs",
+              "DocumentMoniker": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\ChessPieceBounds.cs",
+              "RelativeDocumentMoniker": "Assets\\ChessPieceBounds.cs",
+              "ToolTip": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\ChessPieceBounds.cs",
+              "RelativeToolTip": "Assets\\ChessPieceBounds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T22:44:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerClass.cs",
+              "DocumentMoniker": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\PlayerClass.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerClass.cs",
+              "ToolTip": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\PlayerClass.cs",
+              "RelativeToolTip": "Assets\\PlayerClass.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:44:00.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameUI.cs",
+              "DocumentMoniker": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\GameUI.cs",
+              "RelativeDocumentMoniker": "Assets\\GameUI.cs",
+              "ToolTip": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\GameUI.cs",
+              "RelativeToolTip": "Assets\\GameUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:40:12.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerNames.cs",
-              "DocumentMoniker": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\chess\\Chess2.0\\Assets\\PlayerNames.cs",
+              "DocumentMoniker": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\PlayerNames.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerNames.cs",
-              "ToolTip": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\chess\\Chess2.0\\Assets\\PlayerNames.cs",
+              "ToolTip": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\PlayerNames.cs",
               "RelativeToolTip": "Assets\\PlayerNames.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,11 +88,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\chess\\Chess2.0\\Assets\\Menu.cs",
+              "DocumentMoniker": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Menu.cs",
-              "ToolTip": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\chess\\Chess2.0\\Assets\\Menu.cs",
+              "ToolTip": "C:\\Year 3\\Winter Quarter\\Principles of Software Engineering\\other\\Chess2.0\\Assets\\Menu.cs",
               "RelativeToolTip": "Assets\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T16:18:26.155Z",
               "EditorCaption": ""
