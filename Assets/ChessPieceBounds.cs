@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class SnapToGrid : MonoBehaviour
@@ -7,6 +8,7 @@ public class SnapToGrid : MonoBehaviour
     public float gridSize = 1.49f;
     public int gridCount = 8;
     public Material borderMaterial;
+    public GameStateController controller;
 
     private void Start()
     {
@@ -21,10 +23,17 @@ public class SnapToGrid : MonoBehaviour
         );
 
         DrawGridBorders();
+
+        controller = FindFirstObjectByType<GameStateController>();
     }
 
     private void OnMouseDrag()
     {
+        if ((controller.currentState == GameState.WhiteTurn && !CompareTag("WhitePiece")) || (controller.currentState == GameState.BlackTurn && !CompareTag("BlackPiece")))
+        {
+            Debug.Log("You can't move this piece, it's not your turn.");
+            return;
+        }
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = Camera.main.WorldToScreenPoint(transform.position).z;
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
